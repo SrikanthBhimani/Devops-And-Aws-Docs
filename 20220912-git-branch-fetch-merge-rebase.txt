@@ -1,0 +1,23 @@
+Git Branch:
+-----------
+git branch <branch-name>	--> To create a branch
+git branch					--> To check existing branches
+git checkout <branch-name>	--> To switch to new branch
+
+git push --set-upstream origin example
+git push -u origin example
+
+git pull					--> To pull changes from remote to local repo
+
+What is the difference between git fetch and pull?
+--------------------------------------------------
+git fetch 	--> will get changes from remote to local(it will keep in cache), but changes will not be reflect into local repo
+
+git pull	= git fetch + git merge
+
+------------------------------------------------------------
+
+merge/rebase	--> 	To move changes from one branch to other branch
+
+what is a difference between merge/rebase?
+	merge will create extra commit, but rebase will not create any extra commit

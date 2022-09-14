@@ -1,0 +1,25 @@
+Pushing Changes to Github:
+--------------------------
+git clone	--> To download repo to local
+git status	--> To check status of the file
+
+git add 	--> To track changes to staging area
+git commit	--> To commit changes to local repo from staging area
+git push	--> To push changes to central repo from local repo
+
+
+Stages in Git: (3 stages)
+--------------
+1. Working area/untracked area/unstaging area
+2. Staging area/tracked area
+3. Local Repository
+
+If you want to move changes from working area to staging area
+	--> git add
+If you want to move changes from staging area to local repository
+	--> git commit
+If you want to move changes from local repository to central repository
+	--> git push
+	
+git log				--> To get commit history
+git log --oneline	--> To get commit history in a single line

@@ -1,0 +1,35 @@
+pull , fetch and merge
+
+Git merge and git rebase:
+--------------------------
+Merge and Rebase both are going to be using to move changes from one branch to other branch
+
+merge:
+------
+git merge master --no-ff			--> it will create some extra commit 
+
+Rebase:
+-------
+git rebase master
+
+
+Revert and Reset:
+-----------------
+git log --oneline			--> to get commits
+
+You can also think of git revert as a tool for undoing committed changes, while git reset HEAD is for undoing uncommitted changes.
+
+git revert <commit-id>
+	--> It will create some extra commit 
+
+git reset --hard <commit-id>
+	Here we just move head position --> it will not create any extra commit, also it will delete existing commits
+
+
+Local Repository	--> 
+Staging area
+Working area
+
+git reset --soft		--> changes remains exist at staging area
+git reset --mixed		--> changes remains exist at working area
+git reset --hard		--> changes will not be exist anymore
